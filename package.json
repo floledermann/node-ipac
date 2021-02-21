@@ -2,12 +2,29 @@
   "name": "node-ipac",
   "version": "0.0.1",
   "description": "Controlling the LEDs of the Ultimarc I-PAC Ultimate I/O controller.",
-  "main": "index.js",
+  "main": "./index.js",
+  "exports": "./index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/floledermann/node-ipac.git"
+  },
+  "keywords": [
+    "I-PAC",
+    "USB",
+    "HID",
+    "controller",
+    "LED",
+    "LEDs"
+  ],
   "author": "Florian Ledermann <florian.ledermann@tuwien.ac.at>",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/floledermann/node-ipac/issues"
+  },
+  "homepage": "https://github.com/floledermann/node-ipac#readme",
   "dependencies": {
     "usb": "^1.6.5"
   }
