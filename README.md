@@ -10,6 +10,7 @@ Adding support for new devices should be simply a matter of passing a different 
 const iPac = require("node-ipac");
 
 let device = iPac({
+  // you can configure names for LEDs to use instead of numeric IDs
   ledNames: {
     right: 85,
     down: 88,
@@ -19,11 +20,11 @@ let device = iPac({
   }
 });
 
-device.setLED("up", 255);             // full ON
+device.setLED("up", 255);             // LED 94 full ON
 
-device.blinkLED("down", 4, 100);      // blink 4 times, duration 100ms
+device.blinkLED("down", 4, 100);      // LED 88 blink 4 times, duration of each on/off phase 100ms
 
-device.setRgbLED("rgb", 20, 15, 40);  // set RGB LED to dark purple
+device.setRgbLED("rgb", 20, 15, 40);  // RGB LED (LEDs 49-51) dark purple
 ```
 
 
