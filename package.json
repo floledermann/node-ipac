@@ -1,7 +1,7 @@
 {
   "name": "node-ipac",
   "version": "0.0.1",
-  "description": "Controlling the LEDs of the Ultimarc I-PAC Ultimate I/O controller.",
+  "description": "Control LEDs with the Ultimarc I-PAC controller.",
   "main": "./index.js",
   "exports": "./index.js",
   "scripts": {
