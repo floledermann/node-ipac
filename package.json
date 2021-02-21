@@ -1,0 +1,14 @@
+{
+  "name": "node-ipac",
+  "version": "0.0.1",
+  "description": "Controlling the LEDs of the Ultimarc I-PAC Ultimate I/O controller.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Florian Ledermann <florian.ledermann@tuwien.ac.at>",
+  "license": "MIT",
+  "dependencies": {
+    "usb": "^1.6.5"
+  }
+}
